@@ -1,0 +1,74 @@
+/*alineamos el texto*/
+body {/* hace referencia a lo que usaremos*/
+	text-align: center; /* designo que todo lo de body estara centrado*/
+}
+
+/*asigno color al primer cuadrado*/
+.cuadrado-color{
+	background-color: #000000;
+	border: 1px solid black;
+	padding-bottom: 20px;
+}
+
+/*color y tipo de letra cambiar*/
+/*parrafo*/
+p{
+	color: #000000;
+	font-family: 'Sedgwick Ave Display', cursive;
+	margin-right: 150px;
+    margin-left: 80px;
+}
+
+/*Mi Grupo Favorito*/
+h1{
+	color: #8A0808;
+	font-family: 'Sedgwick Ave Display', cursive;
+	text-decoration: underline;
+}
+
+/*El mejor grupo del mundo*/
+h2{
+	color: #FAFAFA;
+	font-family: 'Rock Salt', cursive;
+}
+
+/*Acerca del grupo*/
+h3{
+	color: #000000;
+	font-family: 'Rock Salt', cursive;
+	text-decoration: underline;
+}
+
+/*Mas Informacion*/
+h4{
+	color: #000000;
+	font-family: 'Rock Salt', cursive;
+	text-decoration: underline;
+}
+
+/*enlaces*/
+h5{
+	color: #610B21;
+	font-family: 'Special Elite', cursive;
+
+}
+/*cambiar tamaños en las imagenes*/
+.imagen{
+	width: 500px;/*ancho*/
+	
+}
+
+.logo{
+	width: 200px;
+}
+
+.informacion{
+	border: 1px solid white;
+	padding-bottom: 20px;
+	background-image: url("powerslave_mumford.jpg");
+}
+
+.enlaces{
+	border: 1px dotted black;
+
+}
